@@ -1,0 +1,34 @@
+{
+    "slider-layout#slider__two--home": {
+        "props": {
+          "itemsPerPage": {
+            "desktop": 1,
+            "tablet": 1,
+            "phone": 1
+          },
+          "infinite": true,
+          "showNavigationArrows": "desktopOnly",
+          "blockClass": "carousel"
+        },
+        "children": ["image#example__1", "image#example__2", "image#example__3"]
+      },
+    
+      "image#example__1": {
+        "title": "Image one",
+        "props": {
+          "src": "assets/img/product-itg.png"
+        }
+      },    
+      "image#example__2": {
+        "title": "Image two",
+        "props": {
+          "src": "assets/img/product-itg.png"
+        }
+      },    
+      "image#example__3": {
+        "title": "Image three",
+        "props": {
+          "src": "assets/img/product-itg.png"
+        }
+      }    
+}

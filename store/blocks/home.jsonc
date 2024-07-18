@@ -1,15 +1,11 @@
 {
   "store.home": { 
     "blocks": [
-      "rich-text"
+      "flex-layout.row#text__one--home",
+      "flex-layout.row#text__two--home",
+      "list-context.image-list#list__one--home",
+      "slider-layout#slider__one--home",
+      "slider-layout#slider__two--home"
     ]
-  },
-  "rich-text": { 
-    "props": { 
-      "text": "Estoy editando este rich-text",
-      "textAlignment": "CENTER",
-      "textPosition": "CENTER",
-      "font": "t-heading-1"
-    }
   }
 }
