@@ -1,0 +1,23 @@
+{
+        "flex-layout.row#home__section--1-mobile": {
+            "title": "mobile row with text",
+            "children": [
+                "rich-text#mobile__section--1"
+            ],
+            "props":{
+                "margin-top": 10,
+                "border": ["top", "bottom"],
+                "borderWidth": 1,
+                "borderColor": "danger"
+            }
+    },
+        "rich-text#mobile__section--1": {
+            "title":"text favorites at mobile",
+            "props": {
+                "text": "Favoritos en mobile",
+                "font": "t-heading-3",
+                "textAlignment": "CENTER",
+                "textPosition": "CENTER"
+        }
+    }
+}

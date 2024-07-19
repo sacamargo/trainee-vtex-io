@@ -1,62 +1,10 @@
 {
-    "flex-layout.row#text__one--home":{
-        "title": "Text row one home",
-        "children": [
-            "flex-layout.col#text__one--home",
-            "flex-layout.col#text__two--home"
-        ],
-        "props":{
-
+     "rich-text#text__second-slider": {
+        "props": {
+            "text": "An amazing product.",
+            "font": "t-heading-5",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT"
         }
-    },
-
-    "flex-layout.row#text__two--home":{
-        "title": "Text row two home",
-        "children": [
-            "flex-layout.col#text__one--home",
-            "flex-layout.col#text__two--home"
-        ],
-        "props":{
-
-        }
-    },
-
-    "flex-layout.col#text__one--home":{
-        "title": "Text col one home",
-        "children": [
-            "rich-text#text__one--home-left"
-        ],
-        "props":{
-            "width": "30%"
-        }
-    },
-    
-    "flex-layout.col#text__two--home":{
-        "title": "Text col two home",
-        "children": [
-            "rich-text#text__two--home-right"
-        ],
-        "props":{
-            "width": "70%"
-        }
-    },
-
-    "rich-text#text__one--home-left": {
-        "title":"text rich one home", 
-        "props": { 
-          "text": "Estoy en la izquierda",
-          "textAlignment": "CENTER",
-          "textPosition": "CENTER",
-          "font": "t-heading-1"
-        }
-      }, 
-      "rich-text#text__two--home-right": {
-        "title":"text rich two home", 
-        "props": { 
-          "text": "Estoy en la derecha",
-          "textAlignment": "CENTER",
-          "textPosition": "CENTER",
-          "font": "t-heading-1"
-        }
-      }
+    }
 }

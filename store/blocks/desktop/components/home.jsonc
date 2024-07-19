@@ -1,0 +1,34 @@
+{
+  "flex-layout.row#desktop_home-section": {
+          "title": "phone row with text",
+          "children": [
+              "list-context.image-list#desktopmain-hero"
+          ]
+      },
+  
+      "list-context.image-list#desktopmain-hero": {
+          "props": {
+              "images": [
+                  {
+                      "image": "/arquivos/hero-desktop.png",
+                      "description": "Main hero image",
+                      "link": {"url": "#"}
+                  }
+              ]
+          },
+  
+          "children": [
+              "slider-layout#desktopmain-hero-slider"
+          ]
+      },
+  
+      "slider-layout#desktopmain-hero-slider": {
+          "props": {
+              "itemsPerPage": {
+                  "desktop": 5,
+                  "tablet": 3,
+                  "phone": 1
+              }
+          }
+      }
+  }
