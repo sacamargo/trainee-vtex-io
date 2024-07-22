@@ -1,5 +1,8 @@
 {
     "flex-layout.row#global__second--slider": {
+        "props": {
+            "blockClass": "second-slider"
+        },
         "children": [
             "slider-layout#second__slider"
         ]
@@ -7,10 +10,11 @@
 
     "slider-layout#second__slider": {
         "props": {
+            "blockClass": "slider-info-card",
             "itemsPerPage": {
-                "desktop": 3.05,
+                "desktop": 3,
                 "tablet": 3,
-                "phone": 1.5
+                "phone": 2
             }
         },
         "children": [
@@ -29,6 +33,9 @@
     },
 
     "flex-layout.col#second__slider--container": {
+        "props": {
+            "blockClass": "info-card"
+        },
         "children": [
             "flex-layout.row#slider__first-row",
             "flex-layout.row#slider__second-row",
@@ -37,6 +44,9 @@
     },
 
     "flex-layout.row#slider__first-row": {
+        "props": {
+            "blockClass": "image-info-card"
+        },
         "children": [
             "image#first__row-image"
         ]
@@ -57,7 +67,8 @@
         ],
 
         "props": {
-            "preserveLayoutOnMobile": true
+            "preserveLayoutOnMobile": true,
+            "colSizing": "auto"
         }
     },
 
@@ -69,6 +80,7 @@
 
     "rich-text#second__row-title": {
         "props": {
+            "blockClass": "text-info-card",
             "text": "# Heading\n Builder platform is made by, buildership platform is made by..."
 
         }
@@ -76,6 +88,9 @@
 
 
     "flex-layout.col#second__row-image": {
+        "props": {
+            "blockClass": "img-trophy-info-card"
+        },
         "children": [
             "image#second__row-best-seller"
         ]
@@ -83,12 +98,15 @@
 
     "image#second__row-best-seller": {
       "props": {
-        "src": "/arquivos/bestseller-image.png"
-        
+        "src": "/arquivos/bestseller-image.png",
+        "blockClass": "img-trophy"
       }
     },
 
     "flex-layout.row#slider__third-row": {
+        "props": {
+            "blockClass": "button-info-card"
+        },
         "children": [
             "rich-text#slider__third-row--button"
         ]

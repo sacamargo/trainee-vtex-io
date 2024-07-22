@@ -3,11 +3,15 @@
           "title": "phone row with text",
           "children": [
               "list-context.image-list#desktopmain-hero"
-          ]
+          ],
+          "props": {
+            "blockClass": "hero-desktop"
+          }
       },
   
       "list-context.image-list#desktopmain-hero": {
           "props": {
+                "height": 422,
               "images": [
                   {
                       "image": "/arquivos/hero-desktop.png",
@@ -24,6 +28,7 @@
   
       "slider-layout#desktopmain-hero-slider": {
           "props": {
+            "blockClass": "hero-desktop-img",
               "itemsPerPage": {
                   "desktop": 5,
                   "tablet": 3,

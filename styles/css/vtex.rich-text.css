@@ -1,0 +1,42 @@
+.link--slider_third-row--button::after {
+    content: url("/arquivos/arrow-button.svg");
+}
+
+.link--slider_third-row--button {
+    align-items: center;
+    justify-content: center;
+    background-color: #1D2734;
+    color: #fff;
+    text-decoration: none;
+    font-size: 12px;
+    border-radius: 40px;
+    width: 134px;
+    height: 43px;
+    display: inline-flex;
+    gap: 9px;
+}
+
+.wrapper--text-info-card {
+    margin-left: 13.82px;
+}
+
+.heading-level-1 {
+    font-size: 16px;
+}
+
+.paragraph--text-info-card {
+    font-size: 12px;
+}
+
+.container--slider_third-row--button {
+    align-items: center;
+    display: flex;
+}
+
+.wrapper--text-amazing {
+    font-size: 16px;
+    font-weight: 700;
+    padding: 0px 102px ;
+    display: inline-flex;
+    color: #1D2734;
+}

@@ -1,0 +1,34 @@
+.flexRow--hero-desktop {
+    max-width: 1280px;
+    margin: auto;
+}
+
+.flexRow--hero-desktop :global(.vtex-store-components-3-x-container) {
+    padding: 0;
+}
+
+.flexRow--second-slider {
+    max-width: 1280px;
+    margin: auto;
+    padding: 0 62px;
+}
+
+.flexRowContent--image-info-card {
+    max-width: 324px;
+}
+
+.flexRowContent--image-info-card :global(.vtex-store-components-3-x-imageElement) {
+    width: 324px;
+}
+
+.flexCol--info-card {
+    background-color: #fff;
+    max-width: 324px;
+    border-radius: 12px;
+    align-items: center;
+}
+
+.flexColChild--img-trophy-info-card {
+    margin: 13.82px;
+}
+
